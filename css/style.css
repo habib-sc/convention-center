@@ -14,10 +14,35 @@ body {
     color: #6047EC;
 }
 
+.hcc-text-gray {
+    color: #848199;
+}
+
+.hcc-h-color {
+    color: #0A0826;
+}
+
 .hcc-f-600 {
     font-weight: 600;
 }
 
+.hcc-pricing-bg {
+    background-color: #FEF5FA;
+}
+
 .hcc-f-300 {
     font-weight: 300;
+}
+
+.hcc-pricing-icon {
+    background-color: rgba(171, 161, 245, 0.26);
+}
+
+.hcc-bg {
+    background-color: #6047EC;
+}
+
+#highlightedPricing {
+    top: -55px;
+    border-radius: 20px;
 }
