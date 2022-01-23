@@ -46,3 +46,8 @@ body {
     top: -55px;
     border-radius: 20px;
 }
+
+#badge {
+    background-color: #FF4E4E;
+    right: -25px;
+}
