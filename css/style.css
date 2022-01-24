@@ -1,6 +1,9 @@
 /* Google Font  */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* Common Style Started  */
+
 body {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -9,6 +12,16 @@ body {
 .hcc-img-cover {
     object-fit: cover;
 }
+
+.hcc-bg {
+    background-color: #6047EC;
+}
+
+
+/* Common Style Ended   */
+
+
+/* Typography Started */
 
 .hcc-text-color {
     color: #6047EC;
@@ -26,20 +39,22 @@ body {
     font-weight: 600;
 }
 
-.hcc-pricing-bg {
-    background-color: #FEF5FA;
-}
-
 .hcc-f-300 {
     font-weight: 300;
 }
 
-.hcc-pricing-icon {
-    background-color: rgba(171, 161, 245, 0.26);
+
+/* Typography Ended  */
+
+
+/* Pricing style started */
+
+.hcc-pricing-bg {
+    background-color: #FEF5FA;
 }
 
-.hcc-bg {
-    background-color: #6047EC;
+.hcc-pricing-icon {
+    background-color: rgba(171, 161, 245, 0.26);
 }
 
 #highlightedPricing {
@@ -51,3 +66,6 @@ body {
     background-color: #FF4E4E;
     right: -25px;
 }
+
+
+/* Pricing style Ended  */
